@@ -33,8 +33,8 @@ public class Employee {
     private String firstName;
     @Basic
     @Column( nullable = false , length = 25)
-    @NotBlank(message = "Last Name is  mut not be emtpy")
-    @Size(min = 2,message ="first Name must be more than 2 char")
+    @NotBlank(message = "Last Name is  must not be emtpy")
+    @Size(min = 2,message ="Last Name must be more than 2 char")
     private String lastName;
     @Basic
     @Column( length = 25)
